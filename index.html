@@ -1,77 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .atribuicao { font-size: 11px; text-align: center; }
+    .atribuicao a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Simple Omelette Recipe
-
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-
-  Preparation time
-
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
-
-  Ingredients
-
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
-
-  Instructions
-
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
-
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
-
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
-
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
-
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
-
-  Enjoy: Serve hot, with additional salt and pepper if needed.
-
-  Nutrition
-
-  The table below shows nutritional values per serving without the additional fillings.
-
-  Calories
-  277kcal
-
-  Carbs
-  0g
-
-  Protein
-  20g
-
-  Fat
-  22g
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="recipe">
+      <img src="assets/images/image-omelette.jpeg" alt="Omelete" class="recipe-image">
+      <h1>Receita Simples de Omelete</h1>
+      <p>
+        Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos à perfeição, opcionalmente recheados com sua escolha de queijo, vegetais ou carnes.
+      </p>
+      <div class="tempoPreparacao">
+        <h3>Tempo de preparação</h3>
+        <ul class="ulTempoPreparacao">
+          <li><strong>Total</strong>: Aproximadamente 10 minutos</li>
+          <li><strong>Preparação</strong>: 5 minutos</li>
+          <li><strong>Cozimento</strong>: 5 minutos</li>
+        </ul>
+      </div>
+      <h2>Ingredientes</h2>
+      <ul class="ulIngredientes">
+          <li>2-3 ovos grandes</li>
+          <li>Sal a gosto</li>
+          <li>Pimenta a gosto</li>
+          <li>1 colher de sopa de manteiga ou óleo</li>
+          <li>Recheios opcionais: queijo, legumes picados, carnes cozidas, ervas</li>
+      </ul>
+      <h2>Instruções</h2>
+      <ol class="olInstrucoes">
+          <li><strong>Bata os ovos</strong>: Em uma tigela, bata os ovos com uma pitada de sal e pimenta até ficarem bem misturados.</li>
+          <li><strong>Aqueça a frigideira</strong>: Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.</li>
+          <li><strong>Cozinhe a omelete</strong>: Quando a manteiga estiver derretida e borbulhando, despeje os ovos na frigideira. Incline a panela para garantir que os ovos cubram uniformemente a superfície.</li>
+          <li><strong>Adicione os recheios (opcional)</strong>: Quando os ovos começarem a firmar nas bordas, mas ainda estiverem um pouco líquidos no meio, polvilhe os recheios escolhidos sobre uma metade da omelete.</li>
+          <li><strong>Dobre e sirva</strong>: Conforme a omelete continuar a cozinhar, levante cuidadosamente uma borda e dobre sobre os recheios. Cozinhe por mais um minuto e depois deslize para um prato.</li>
+          <li><strong>Aproveite</strong>: Sirva quente, com sal e pimenta adicionais, se necessário.</li>
+      </ol>
+      <h2>Informações Nutricionais</h2>
+      <p>A tabela abaixo mostra os valores nutricionais por porção, sem os recheios adicionais.</p>
+      <table class="tabelaNutricao">
+          <tbody>
+              <tr>
+                  <td>Calorias</td>
+                  <td>277 kcal</td>
+              </tr>
+              <tr>
+                  <td>Carboidratos</td>
+                  <td>0 g</td>
+              </tr>
+              <tr>
+                  <td>Proteína</td>
+                  <td>20 g</td>
+              </tr>
+              <tr>
+                  <td>Gordura</td>
+                  <td>22 g</td>
+              </tr>
+          </tbody>
+        </table>
+        <div class="atribuicao">
+          Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Feito por <a href="https://github.com/pedro-florentino" target="_blank">Pedro Henrique Marques Florentino</a>.
+        </div>
+      </section>
+  </main>
 </body>
 </html>
