@@ -26,7 +26,7 @@ O desafio é construir uma página de receita e deixá-la o mais próxima possí
 
 ### Captura de Tela
 
-![Captura de Tela](./assets/images/screenshot.png)
+![Captura de Tela](/assets/images/screenshot.png)
 
 ### Links
 
