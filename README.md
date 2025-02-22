@@ -30,8 +30,7 @@ O desafio é construir uma página de receita e deixá-la o mais próxima possí
 
 ### Links
 
-- URL da solução: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/recipe-page)
-- URL do site: [Live Site](https://pedro-florentino.github.io/recipe-page)
+- URL do site: [Acesse o site aqui](https://pedro-florentino.github.io/recipe-page)
 
 ## Meu Processo
 
