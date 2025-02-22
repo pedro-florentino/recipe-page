@@ -53,6 +53,7 @@ Durante o desenvolvimento deste projeto, aprendi a importância de usar HTML sem
     height: auto;
     border-radius: 8px;
 }
+```
 
 ### Desenvolvimento contínuo
 
