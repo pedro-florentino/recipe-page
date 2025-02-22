@@ -37,11 +37,10 @@ O desafio é construir uma página de receita e deixá-la o mais próxima possí
 
 ### Construído com
 
-- HTML5 semântico
-- Propriedades personalizadas de CSS
+- HTML5
+- CSS
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### O que aprendi
 
