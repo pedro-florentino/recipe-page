@@ -63,7 +63,6 @@ Pretendo continuar aprimorando minhas habilidades em:
 ## Autor
 
 - Website - [Pedro Henrique Marques Florentino](https://github.com/pedro-florentino)
-- Frontend Mentor - [@pedro-florentino](https://www.frontendmentor.io/profile/pedro-florentino)
 - LinkedIn - [/pedro-florentino](https://www.linkedin.com/in/pedro-henrique-marques-florentino/)
 
 ## Agradecimentos
