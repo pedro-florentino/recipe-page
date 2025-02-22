@@ -58,7 +58,6 @@ Durante o desenvolvimento deste projeto, aprendi a importância de usar HTML sem
 Pretendo continuar aprimorando minhas habilidades em:
 - Acessibilidade web
 - Animações CSS
-- JavaScript para interatividade adicional
 
 ## Autor
 
