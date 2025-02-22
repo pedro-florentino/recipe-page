@@ -30,6 +30,7 @@ main {
 
 h1 {
     font-family: "Young Serif", serif;
+    font-size: 20px;
     font-weight: 700;
     color: hsl(24, 5%, 18%);
     margin: 0;
