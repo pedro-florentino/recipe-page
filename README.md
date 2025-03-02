@@ -39,7 +39,6 @@ O desafio é construir uma página de receita e deixá-la o mais próxima possí
 - HTML5
 - CSS
 - Flexbox
-- CSS Grid
 
 ### O que aprendi
 
